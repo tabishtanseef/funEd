@@ -1,0 +1,278 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="Progress Button Styles: Creative effects for loading buttons" />
+		<meta name="keywords" content="progress button, loading button, 3d, loading indicator, progress indicator" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Kanit|Raleway" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>
+h2{
+text-align:center;
+background-image: linear-gradient(to right,green , black);
+color:white;
+font-family:Dimbo;
+font-size:50px;
+}
+h3{
+text-align:center;
+font-family:Dimbo ;
+font-size:30px;
+padding:10px;
+background-image: linear-gradient(to right,red , black);
+color:white;
+}
+.tabs{
+background-image: linear-gradient(to left,yellow , orange);
+padding:20px;
+border:5px solid green;
+border-radius:20px;
+font-size:20px;
+}
+.tab1{
+	text-align:;
+	background: rgba(255, 172, 0, 0.5);
+	margin-bottom:;
+}
+.block {
+    display: block;
+    width: 70%;
+    border: none;
+    background-image: linear-gradient(to right,yellow , orange);
+	font-family:Comic Sans, Comic Sans MS, cursive;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+}
+.hidden{
+display:none;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; position:fixed; width: 100%;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	
+    <img src="img/funed.png" style="margin-left:10%; margin-right:4%; height:auto; width:10%;" width="30px" height="30px" alt="">
+    
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+         <a class="nav-link" href="#">Home</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Vish
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"> </div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    
+	<img id="nope" src="img/2.png" style="margin-left:4%; margin-right:4%; height:auto; width:4%;" width="30px" height="30px" alt="">
+
+  </div>
+  
+    
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="tab1">
+<h2>SMART LANGUAGE</h2>
+<h3>Choose the correct conjuctions and complete the sentence.</h3>
+<br>
+
+<div class="container tabs">
+
+	<div class="row">
+		<div class="col-sm-1" >
+		1.
+		</div>
+		<div class="col-sm-10"  >
+		All the teachers  like her <select id="first"></select>  she is very respectful.  
+		</div>
+		
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-1" >
+		2.
+		</div>
+		<div class="col-sm-10"  >
+		The piper played <select id="firs"></select> the children danced.
+		</div>
+		
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-1" >
+		3.
+		</div>
+		<div class="col-sm-10"  >
+		We  must start at once <select id="fir"></select> we will miss the flight. </div>
+		
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-1" >
+		4.
+		</div>
+		<div class="col-sm-10"  >
+	    <select id="fi"></select> you come back from Jaipur, we'll meet .</div>
+		
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-sm-1" >
+		5.
+		</div>
+		<div class="col-sm-10"  >
+		 My friends  said that the movie was  extraordinary , <select id="f"></select> I watched it.</div>
+		
+	</div>
+	
+	<hr>
+	<div class="row">
+		<div class="col-sm-1" >
+		6.
+		</div>
+		<div class="col-sm-10"  >
+		I wanted to go to Shimla , <select id="q"></select> my parents insisted that we go to Nainital.</div>
+		
+	</div>
+	
+	<hr>
+	<div class="row" >
+	<div class="col-sm-4">
+	<center><button class="block"   onclick="ho()"><span>Reset </span></button></center>
+	</div>
+	
+	<div class="col-sm-4">
+	<center><button class="block" id="submit" onclick="go()" ><span>Submit </span></button></center>
+	</div>
+
+	<div class="col-sm-4">
+	<center><button class="block" onclick="show()"><span>Answer Key </span></button></center>
+	</div>
+	</div>
+</div>
+<br>
+</div>
+<div class="tab4 hidden">
+<img src="audio/welldone.gif" width="100%" height="auto">
+</div>
+<audio id="audio2" src="audio/try-again.mp3"></audio>
+<audio id="audio1" src="audio/well-done.mp3"></audio>
+
+<script>
+window.onload = function(e){ 
+    $('#first').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    $('#firs').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    $('#fir').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    $('#fi').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    $('#f').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    $('#q').append("<option selected disabled>     </option><option>when</option><option>so</option><option>but</option><option>or</option><option>and</option><option>because</option>");
+    }
+
+
+
+function go() {
+ var a1 = document.getElementById("first");
+ var a2 = document.getElementById("firs");
+ var a3 = document.getElementById("fir");
+ var a4 = document.getElementById("fi");
+ var a5 = document.getElementById("f");
+ var a6 = document.getElementById("q");
+ 
+
+
+var ans1= a1.options[a1.selectedIndex].text;
+var ans2= a2.options[a2.selectedIndex].text;
+var ans3= a3.options[a3.selectedIndex].text;
+var ans4= a4.options[a4.selectedIndex].text;
+var ans5= a5.options[a5.selectedIndex].text;
+var ans6= a6.options[a6.selectedIndex].text;
+
+if(ans1=="because" && ans2=="and" && ans3=="or" && ans4=="when" && ans5=="so" && ans6=="but"  ){
+var audio = document.getElementById("audio1");
+       audio.play();
+	   $('.tab1').addClass('hidden')
+	   $('.tab4').removeClass('hidden')
+}
+else{
+
+var audio = document.getElementById("audio2");
+       audio.play();
+}
+}
+function ho() {
+ 
+window.location="index.html"
+}
+function show() {
+		$('#submit').attr('disabled',true);
+	  $('#first').val('because');
+	  $('#firs').val('and');
+	  $('#fir').val('or');
+	  $('#fi').val('when');
+	  $('#f').val('so');
+	  $('#q').val('but');
+	  
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/classie.js"></script>
+<script src="js/progressButton.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+</html>

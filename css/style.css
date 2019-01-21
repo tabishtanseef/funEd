@@ -1,0 +1,77 @@
+body{
+background-color:#ccffff;
+}
+img{
+	margin:1%;
+width:100%;
+-webkit-filter: drop-shadow(5px 5px 5px #b3ffff);
+	filter: drop-shadow(5px 5px 5px #b3ffff);
+}
+.ls{
+	padding:10px;
+	height:auto;
+	width:90%;
+	margin:-.2%;
+background: rgba(76, 175, 80, 0.4);
+}
+.lsh{
+	font-family: 'Kanit', sans-serif;
+	padding:15px;
+	height:auto;
+	width:90%;
+	margin:-.2%;
+	margin-top:3%;
+background: rgba(76, 175, 80, 0.1);
+}
+.hidden{
+	display:none;
+}
+.info{
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	font-size:24px;
+}
+.f{
+background: rgba(76, 175, 80, 0.3);
+height:auto;
+padding:20px;
+}
+.tab1{
+	text-align:center;
+	background: rgba(255, 172, 0, 0.5);
+	margin-bottom:2%;
+	
+}
+.sabak{
+	font-family: 'Gamja Flower', cursive;
+	text-align:center;
+	font-weight:bold;
+	font-size:28px;
+	margin-bottom:22%;
+}
+span{
+	
+	margin-bottom:12%;
+}
+#sch{
+	height:100px;
+	margin-left:.1%;
+}
+#headd{
+height:AUTO;
+text-align:center;
+margin:.2%;
+margin-right:-.5%;
+background: rgba(76, 175, 80, 0.2);
+}
+#hedd{
+height:auto;
+margin:.2%;
+margin-right:-.5%;
+background: rgba(76, 175, 80, 0.2);
+}
+#dp{
+	padding:10px;
+	margin:8%;
+	width:80%;
+}

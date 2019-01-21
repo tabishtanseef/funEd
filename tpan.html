@@ -1,0 +1,199 @@
+<!Doctype HTML>
+<html>
+<head>
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<style>
+body{
+background-color:#ccffff;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: green;
+  color:white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+    color:white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3 ls">
+			<div class="row">
+				<div class="col-sm-12"  >
+				<img src="img/.png" id="dp">
+				</div>
+				<div class="col-sm-12 info" >
+					OPTION 1<br>
+					OPTION 2<br>
+					OPTION 3<br>
+					OPTION 4<br>
+				</div>
+				<div class="col-sm-12 lsh" >
+				Dashboard
+				</div>
+				<div class="col-sm-12 lsh" >
+				Dashboard
+				</div>
+				<div class="col-sm-12 lsh" >
+				Dashboard
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-12"  >
+					<img src="img/2.jpg" id="sch">
+				</div>
+			</div>
+			<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'London')">Unlock</button>
+			<button class="tablinks" onclick="openCity(event, 'Paris')">Dead</button>
+			
+			</div>
+
+			<div id="London" class="tabcontent">
+				<table class="table">
+				<thead>
+				<tr>
+				<th>ame</th>
+				<th>id</th>
+				<th>Email</th>
+				<th colspan="2">Vig</th>
+				<th colspan="2">Gan</th>
+				<th colspan="2">ang</th>
+				<th colspan="2">mat</th>
+				<th colspan="2">idi</th>
+				<th colspan="2">sama</th>
+				<th colspan="2">kag</th>
+				<th colspan="2">cmp</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				</tr>      
+				<tr class="success">
+				<td>success</td>
+				<td>Moe</td>
+				<td>Moe@gmail.com</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				<td>uL</td>
+				<td>comp</td>
+				</tr>
+				<tr class="danger">
+				<td>Danger</td>
+				<td>Moe</td>
+				<td>mary@example.com</td>
+				</tr>
+				
+				<tr class="warning">
+				<td>Warning</td>
+				<td>Refs</td>
+				<td>bo@example.com</td>
+				</tr>
+				<tr class="active">
+				<td>Active</td>
+				<td>Activeson</td>
+				<td>act@example.com</td>
+				</tr>
+				</tbody>
+				</table>
+
+			</div>
+
+			<div id="Paris" class="tabcontent">
+			<h3>Paris</h3>
+			<p>Paris is the capital of France.</p> 
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html>
